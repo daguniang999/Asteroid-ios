@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  Asteroid-ios
 //
 //  Created by 陈潇炜 on 2020/6/17.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = .red
     }
+    
+
 
 
 }
-
