@@ -56,15 +56,71 @@
 		D30A9BB5249A4DDA0035506A /* Asteroid-ios */ = {
 			isa = PBXGroup;
 			children = (
+				D30A9BCF249D8A190035506A /* Support Files */,
+				D30A9BCE249D89F30035506A /* Classes */,
+			);
+			path = "Asteroid-ios";
+			sourceTree = "<group>";
+		};
+		D30A9BCE249D89F30035506A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				D30A9BB6249A4DDA0035506A /* AppDelegate.swift */,
 				D30A9BB8249A4DDA0035506A /* SceneDelegate.swift */,
-				D30A9BBA249A4DDA0035506A /* ViewController.swift */,
 				D30A9BBC249A4DDA0035506A /* Main.storyboard */,
+				D30A9BD3249D8C520035506A /* Model */,
+				D30A9BD2249D8C2F0035506A /* Util */,
+				D30A9BD0249D8B0C0035506A /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D30A9BCF249D8A190035506A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				D30A9BBF249A4DDC0035506A /* Assets.xcassets */,
 				D30A9BC1249A4DDC0035506A /* LaunchScreen.storyboard */,
 				D30A9BC4249A4DDC0035506A /* Info.plist */,
 			);
-			path = "Asteroid-ios";
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		D30A9BD0249D8B0C0035506A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D30A9BD1249D8B2B0035506A /* Init */,
+				D30A9BD4249DBAB50035506A /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D30A9BD1249D8B2B0035506A /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				D30A9BBA249A4DDA0035506A /* ViewController.swift */,
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		D30A9BD2249D8C2F0035506A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D30A9BD3249D8C520035506A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D30A9BD4249DBAB50035506A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +342,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K25ZBU33D;
-				INFOPLIST_FILE = "Asteroid-ios/Info.plist";
+				INFOPLIST_FILE = "Asteroid-ios/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +361,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K25ZBU33D;
-				INFOPLIST_FILE = "Asteroid-ios/Info.plist";
+				INFOPLIST_FILE = "Asteroid-ios/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
